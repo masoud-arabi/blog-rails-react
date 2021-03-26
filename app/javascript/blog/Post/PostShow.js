@@ -15,7 +15,7 @@ class PostShow extends Component {
                     <h3>{this.props.post.title}</h3>
                     <p>{this.props.post.body}</p>
                 </div>
-                <Link to='/posts'>
+                <Link to='/'>
                 home
                 </Link>
             </div>

@@ -8,9 +8,9 @@ import PostShow from '../PostShow';
 function PostRoutes (){
     return(
         <>
-            <Route path='/posts' component={PostContainer}/>
+            <Route exact path="/" component={PostContainer}/>
              
-            <Route path="/post/:id" component={PostShow}/>
+            <Route path="/posts/:id" component={PostShow}/>
                 
         </>
     );
