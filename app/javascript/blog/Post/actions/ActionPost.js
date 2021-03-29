@@ -1,13 +1,13 @@
 
 import {Types} from './ActionType';
 
-export const fetchPosts = ({_page, _limit} ) => {
+export const fetchPosts = () => {
     return {
         type: Types.FETCH_POST,
         typeSucces: Types.FETCH_POST_SUCCESFUL,
         typeFail: Types.FETCH_POST_FAIL,
         isEndPointCall: true,
-        endPoint:`posts?_page=${_page}&_limit=${_limit}`,
+        endPoint:`posts`,
         method: 'GET',
     };
 };

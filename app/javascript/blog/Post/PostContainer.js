@@ -40,9 +40,9 @@ class PostsContainer extends Component {
                     <h1>post</h1>
                 </PostHeader>
                 <NewPostModal savePost={savePost} />
-                {pagination}
+                
                     <PostList deletePost={deletePosts} editPost={editPost} posts={posts}/>
-                {pagination}
+                
             </div>
          );
     }

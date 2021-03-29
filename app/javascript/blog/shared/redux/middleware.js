@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = '/api/v1/';
+const baseUrl = 'http://localhost:3004/';
 
 const handleSuccess = ({ response, next, type, reduxData}) =>{
     next({
